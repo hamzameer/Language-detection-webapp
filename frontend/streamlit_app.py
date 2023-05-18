@@ -11,7 +11,7 @@ if st.button("Submit"):
         }
        
     # Posting inputs to ML API
-    response = requests.post(f"http://backend:80/predict", json=inputs, verify=False)
+    response = requests.post(f"http://https://backend-aoeymj3qqa-wl.a.run.app/predict", json=inputs, verify=False)
     json_response = response.json()
 
     prediction = json_response["language"]  

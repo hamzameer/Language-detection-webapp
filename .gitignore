@@ -142,7 +142,7 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
+carbon-quanta-386721-e9aa27aa1629.json
 # Pyre type checker
 .pyre/
 
